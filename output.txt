@@ -1,0 +1,1630 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = one)
+
+# Run progress: 0.00% complete, ETA 00:24:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 282651561.077 ops/s
+# Warmup Iteration   2: 292638017.455 ops/s
+# Warmup Iteration   3: 342802893.895 ops/s
+Iteration   1: 345100730.640 ops/s
+Iteration   2: 358008479.670 ops/s
+Iteration   3: 356388117.249 ops/s
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  353165775.853 ±(99.9%) 128278293.187 ops/s [Average]
+  (min, avg, max) = (345100730.640, 353165775.853, 358008479.670), stdev = 7031366.105
+  CI (99.9%): [224887482.666, 481444069.040] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = two)
+
+# Run progress: 4.17% complete, ETA 00:25:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 292275896.910 ops/s
+# Warmup Iteration   2: 292078900.170 ops/s
+# Warmup Iteration   3: 363906693.850 ops/s
+Iteration   1: 366110613.843 ops/s
+Iteration   2: 360391970.064 ops/s
+Iteration   3: 361748769.497 ops/s
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  362750451.135 ±(99.9%) 54512555.462 ops/s [Average]
+  (min, avg, max) = (360391970.064, 362750451.135, 366110613.843), stdev = 2988017.109
+  CI (99.9%): [308237895.673, 417263006.597] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = three)
+
+# Run progress: 8.33% complete, ETA 00:23:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 286772607.463 ops/s
+# Warmup Iteration   2: 295280165.427 ops/s
+# Warmup Iteration   3: 366375916.326 ops/s
+Iteration   1: 366723206.119 ops/s
+Iteration   2: 358438595.049 ops/s
+Iteration   3: 359288492.925 ops/s
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  361483431.364 ±(99.9%) 83148177.741 ops/s [Average]
+  (min, avg, max) = (358438595.049, 361483431.364, 366723206.119), stdev = 4557632.193
+  CI (99.9%): [278335253.624, 444631609.105] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = four)
+
+# Run progress: 12.50% complete, ETA 00:21:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 283930247.203 ops/s
+# Warmup Iteration   2: 290579497.247 ops/s
+# Warmup Iteration   3: 355605379.404 ops/s
+Iteration   1: 351356207.702 ops/s
+Iteration   2: 353735657.557 ops/s
+Iteration   3: 363318748.798 ops/s
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  356136871.352 ±(99.9%) 115527526.607 ops/s [Average]
+  (min, avg, max) = (351356207.702, 356136871.352, 363318748.798), stdev = 6332453.564
+  CI (99.9%): [240609344.745, 471664397.959] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = one)
+
+# Run progress: 16.67% complete, ETA 00:20:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 297686232.039 ops/s
+# Warmup Iteration   2: 294504608.721 ops/s
+# Warmup Iteration   3: 358364688.962 ops/s
+Iteration   1: 363422724.665 ops/s
+Iteration   2: 317431323.916 ops/s
+Iteration   3: 329037816.960 ops/s
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  336630621.847 ±(99.9%) 436341736.476 ops/s [Average]
+  (min, avg, max) = (317431323.916, 336630621.847, 363422724.665), stdev = 23917362.946
+  CI (99.9%): [≈ 0, 772972358.323] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = two)
+
+# Run progress: 20.83% complete, ETA 00:19:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 276522376.236 ops/s
+# Warmup Iteration   2: 281820611.426 ops/s
+# Warmup Iteration   3: 317141678.415 ops/s
+Iteration   1: 341975943.071 ops/s
+Iteration   2: 359764070.167 ops/s
+Iteration   3: 355151385.695 ops/s
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  352297132.977 ±(99.9%) 168410841.874 ops/s [Average]
+  (min, avg, max) = (341975943.071, 352297132.977, 359764070.167), stdev = 9231166.520
+  CI (99.9%): [183886291.103, 520707974.852] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = three)
+
+# Run progress: 25.00% complete, ETA 00:18:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 275439733.616 ops/s
+# Warmup Iteration   2: 279935255.162 ops/s
+# Warmup Iteration   3: 347280568.369 ops/s
+Iteration   1: 361200686.598 ops/s
+Iteration   2: 346455975.569 ops/s
+Iteration   3: 351387319.379 ops/s
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  353014660.515 ±(99.9%) 136934671.277 ops/s [Average]
+  (min, avg, max) = (346455975.569, 353014660.515, 361200686.598), stdev = 7505851.398
+  CI (99.9%): [216079989.238, 489949331.792] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = four)
+
+# Run progress: 29.17% complete, ETA 00:17:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 281900547.666 ops/s
+# Warmup Iteration   2: 256705098.608 ops/s
+# Warmup Iteration   3: 313445449.266 ops/s
+Iteration   1: 344210593.427 ops/s
+Iteration   2: 327496332.404 ops/s
+Iteration   3: 335538173.166 ops/s
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  335748366.333 ±(99.9%) 152501335.066 ops/s [Average]
+  (min, avg, max) = (327496332.404, 335748366.333, 344210593.427), stdev = 8359112.768
+  CI (99.9%): [183247031.266, 488249701.399] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = one)
+
+# Run progress: 33.33% complete, ETA 00:16:23
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = two)
+
+# Run progress: 37.50% complete, ETA 00:15:21
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = three)
+
+# Run progress: 41.67% complete, ETA 00:14:19
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = four)
+
+# Run progress: 45.83% complete, ETA 00:13:17
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = one)
+
+# Run progress: 50.00% complete, ETA 00:12:15
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = two)
+
+# Run progress: 54.16% complete, ETA 00:11:13
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = three)
+
+# Run progress: 58.33% complete, ETA 00:10:12
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = four)
+
+# Run progress: 62.50% complete, ETA 00:09:10
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = one)
+
+# Run progress: 66.66% complete, ETA 00:08:09
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁷ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁶ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁶ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻³ s/op
+
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 948168
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 948149
+    [0.000, 0.000) = 13
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 3
+    [0.000, 0.000) = 2
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 1
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻³ s/op
+    p(100.0000) =     ≈ 10⁻³ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = two)
+
+# Run progress: 70.83% complete, ETA 00:07:08
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁶ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁷ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁷ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 1000695
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 1000689
+    [0.000, 0.000) = 4
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 1
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻³ s/op
+    p(100.0000) =     ≈ 10⁻³ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = three)
+
+# Run progress: 75.00% complete, ETA 00:06:06
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁷ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁷ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁶ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁴ s/op
+                 firstBench·p1.00:   0.017 s/op
+
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 976324
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.001) = 976323
+    [0.001, 0.003) = 0
+    [0.003, 0.004) = 0
+    [0.004, 0.005) = 0
+    [0.005, 0.006) = 0
+    [0.006, 0.008) = 0
+    [0.008, 0.009) = 0
+    [0.009, 0.010) = 0
+    [0.010, 0.011) = 0
+    [0.011, 0.013) = 0
+    [0.013, 0.014) = 0
+    [0.014, 0.015) = 0
+    [0.015, 0.016) = 0
+    [0.016, 0.018) = 1
+    [0.018, 0.019) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =      0.017 s/op
+    p(100.0000) =      0.017 s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = four)
+
+# Run progress: 79.16% complete, ETA 00:05:05
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁶ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁴ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁶ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁴ s/op
+                 firstBench·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 firstBench·p0.00:   ≈ 0 s/op
+                 firstBench·p0.50:   ≈ 0 s/op
+                 firstBench·p0.90:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.95:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.99:   ≈ 10⁻⁷ s/op
+                 firstBench·p0.999:  ≈ 10⁻⁷ s/op
+                 firstBench·p0.9999: ≈ 10⁻⁵ s/op
+                 firstBench·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 924825
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 924641
+    [ 0.000,  0.000) = 145
+    [ 0.000,  0.000) = 15
+    [ 0.000,  0.000) = 10
+    [ 0.000,  0.000) = 8
+    [ 0.000,  0.000) = 3
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁴ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻³ s/op
+    p(100.0000) =     ≈ 10⁻³ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = one)
+
+# Run progress: 83.33% complete, ETA 00:04:04
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁶ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁶ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 958660
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 958146
+    [ 0.000,  0.000) = 401
+    [ 0.000,  0.000) = 81
+    [ 0.000,  0.000) = 17
+    [ 0.000,  0.000) = 6
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻⁴ s/op
+    p(100.0000) =     ≈ 10⁻⁴ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = two)
+
+# Run progress: 87.50% complete, ETA 00:03:03
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁶ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁶ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁶ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 942592
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 942103
+    [ 0.000,  0.000) = 380
+    [ 0.000,  0.000) = 69
+    [ 0.000,  0.000) = 28
+    [ 0.000,  0.000) = 3
+    [ 0.000,  0.000) = 5
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻⁴ s/op
+    p(100.0000) =     ≈ 10⁻⁴ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = three)
+
+# Run progress: 91.66% complete, ETA 00:02:02
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 960283
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 960185
+    [ 0.000,  0.000) = 90
+    [ 0.000,  0.000) = 3
+    [ 0.000,  0.000) = 3
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻⁴ s/op
+    p(100.0000) =     ≈ 10⁻⁴ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = four)
+
+# Run progress: 95.83% complete, ETA 00:01:01
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   0.001 s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 secondBench·p0.00:   ≈ 0 s/op
+                 secondBench·p0.50:   ≈ 0 s/op
+                 secondBench·p0.90:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.95:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.99:   ≈ 10⁻⁷ s/op
+                 secondBench·p0.999:  ≈ 10⁻⁷ s/op
+                 secondBench·p0.9999: ≈ 10⁻⁵ s/op
+                 secondBench·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 967201
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 967192
+    [0.000, 0.000) = 7
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 1
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.000) = 0
+    [0.000, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 1
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =      0.001 s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = one)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 3
+  mean =     ≈ 10⁻⁵ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁵ s/op
+     p(95.0000) =     ≈ 10⁻⁵ s/op
+     p(99.0000) =     ≈ 10⁻⁵ s/op
+     p(99.9000) =     ≈ 10⁻⁵ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =     ≈ 10⁻⁵ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = two)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = three)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.firstBench
+# Parameters: (param = four)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.firstBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = one)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = two)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = three)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
+# VM invoker: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\lib\idea_rt.jar=53730:C:\Program Files\JetBrains\IntelliJ IDEA 2018.1\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 3 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.BenchmarkRunner.secondBench
+# Parameters: (param = four)
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+
+
+Result "com.example.BenchmarkRunner.secondBench":
+  N = 3
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# Run complete. Total time: 00:24:32
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                        (param)    Mode      Cnt          Score           Error  Units
+BenchmarkRunner.firstBench                           one   thrpt        3  353165775.853 ± 128278293.187  ops/s
+BenchmarkRunner.firstBench                           two   thrpt        3  362750451.135 ±  54512555.462  ops/s
+BenchmarkRunner.firstBench                         three   thrpt        3  361483431.364 ±  83148177.741  ops/s
+BenchmarkRunner.firstBench                          four   thrpt        3  356136871.352 ± 115527526.607  ops/s
+BenchmarkRunner.secondBench                          one   thrpt        3  336630621.847 ± 436341736.476  ops/s
+BenchmarkRunner.secondBench                          two   thrpt        3  352297132.977 ± 168410841.874  ops/s
+BenchmarkRunner.secondBench                        three   thrpt        3  353014660.515 ± 136934671.277  ops/s
+BenchmarkRunner.secondBench                         four   thrpt        3  335748366.333 ± 152501335.066  ops/s
+BenchmarkRunner.firstBench                           one    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.firstBench                           two    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.firstBench                         three    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.firstBench                          four    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.secondBench                          one    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.secondBench                          two    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.secondBench                        three    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.secondBench                         four    avgt        3         ≈ 10⁻⁹                   s/op
+BenchmarkRunner.firstBench                           one  sample   948168         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.00          one  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.50          one  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.90          one  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.95          one  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.99          one  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.999         one  sample                  ≈ 10⁻⁶                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.9999        one  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.firstBench:firstBench·p1.00          one  sample                  ≈ 10⁻³                   s/op
+BenchmarkRunner.firstBench                           two  sample  1000695         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.00          two  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.50          two  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.90          two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.95          two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.99          two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.999         two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.9999        two  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.firstBench:firstBench·p1.00          two  sample                  ≈ 10⁻³                   s/op
+BenchmarkRunner.firstBench                         three  sample   976324         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.00        three  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.50        three  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.90        three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.95        three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.99        three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.999       three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.9999      three  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.firstBench:firstBench·p1.00        three  sample                   0.017                   s/op
+BenchmarkRunner.firstBench                          four  sample   924825         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.00         four  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.50         four  sample                     ≈ 0                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.90         four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.95         four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.99         four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.999        four  sample                  ≈ 10⁻⁶                   s/op
+BenchmarkRunner.firstBench:firstBench·p0.9999       four  sample                  ≈ 10⁻⁴                   s/op
+BenchmarkRunner.firstBench:firstBench·p1.00         four  sample                  ≈ 10⁻³                   s/op
+BenchmarkRunner.secondBench                          one  sample   958660         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.00        one  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.50        one  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.90        one  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.95        one  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.99        one  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.999       one  sample                  ≈ 10⁻⁶                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.9999      one  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.secondBench:secondBench·p1.00        one  sample                  ≈ 10⁻⁴                   s/op
+BenchmarkRunner.secondBench                          two  sample   942592         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.00        two  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.50        two  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.90        two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.95        two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.99        two  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.999       two  sample                  ≈ 10⁻⁶                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.9999      two  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.secondBench:secondBench·p1.00        two  sample                  ≈ 10⁻⁴                   s/op
+BenchmarkRunner.secondBench                        three  sample   960283         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.00      three  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.50      three  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.90      three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.95      three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.99      three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.999     three  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.9999    three  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.secondBench:secondBench·p1.00      three  sample                  ≈ 10⁻⁴                   s/op
+BenchmarkRunner.secondBench                         four  sample   967201         ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.00       four  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.50       four  sample                     ≈ 0                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.90       four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.95       four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.99       four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.999      four  sample                  ≈ 10⁻⁷                   s/op
+BenchmarkRunner.secondBench:secondBench·p0.9999     four  sample                  ≈ 10⁻⁵                   s/op
+BenchmarkRunner.secondBench:secondBench·p1.00       four  sample                   0.001                   s/op
+BenchmarkRunner.firstBench                           one      ss        3         ≈ 10⁻⁵                   s/op
+BenchmarkRunner.firstBench                           two      ss        3         ≈ 10⁻⁶                   s/op
+BenchmarkRunner.firstBench                         three      ss        3         ≈ 10⁻⁶                   s/op
+BenchmarkRunner.firstBench                          four      ss        3         ≈ 10⁻⁶                   s/op
+BenchmarkRunner.secondBench                          one      ss        3         ≈ 10⁻⁶                   s/op
+BenchmarkRunner.secondBench                          two      ss        3         ≈ 10⁻⁶                   s/op
+BenchmarkRunner.secondBench                        three      ss        3         ≈ 10⁻⁶                   s/op
+BenchmarkRunner.secondBench                         four      ss        3         ≈ 10⁻⁶                   s/op
